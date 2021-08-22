@@ -34,6 +34,47 @@ const appMenuItems = [
         Icon: IconBarChart,
     },
     {
+        name: 'Reports',
+        link: '/reports',
+        Icon: IconBarChart,
+    },
+    {
+        name: 'Reports',
+        link: '/reports',
+        Icon: IconBarChart,
+    },
+    {
+        name: 'Reports',
+        link: '/reports',
+        Icon: IconBarChart,
+    },
+    {
+        name: 'Reports',
+        link: '/reports',
+        Icon: IconBarChart,
+    },
+    {
+        name: 'Reports',
+        link: '/reports',
+        Icon: IconBarChart,
+    },
+    {
+        name: 'Reports',
+        link: '/reports',
+        Icon: IconBarChart,
+    },
+    {
+        name: 'Reports',
+        link: '/reports',
+        Icon: IconBarChart,
+    },
+    {
+        name: 'Reports',
+        link: '/reports',
+        Icon: IconBarChart,
+    },
+    
+    {
         name: 'Admin',
         Icon: IconLibraryBooks,
         items: [
@@ -75,6 +116,8 @@ const useStyles = makeStyles(theme =>
     createStyles({
         appMenu: {
             width: '100%',
+            background: '#182138',
+            border: 'none',
         },
         navList: {
             width: drawerWidth,
@@ -83,7 +126,7 @@ const useStyles = makeStyles(theme =>
             width: drawerWidth,
         },
         menuItemIcon: {
-            color: '#97c05c',
+            color: '#809fb8',
         },
     }),
 )

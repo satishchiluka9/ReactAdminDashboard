@@ -81,15 +81,22 @@ const AppMenuItem: React.FC<AppMenuItemProps> = props => {
 const useStyles = makeStyles(theme =>
     createStyles({
         menuItem: {
+            color: '#809fb8',
             '&.active': {
-                background: 'rgba(0, 0, 0, 0.08)',
+                background: '#0c1429',
                 '& .MuiListItemIcon-root': {
                     color: '#fff',
                 },
             },
         },
         menuItemIcon: {
-            color: '#97c05c',
+            color: '#809fb8',
+            '&.active': {
+                background: '#0c1429',
+                '& .MuiListItemIcon-root': {
+                    color: '#fff',
+                },
+            },
         },
     }),
 )

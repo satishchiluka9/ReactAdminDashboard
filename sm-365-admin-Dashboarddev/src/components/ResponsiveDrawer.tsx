@@ -40,10 +40,21 @@ const useStyles = makeStyles((theme: Theme) =>
                 flexShrink: 0,
             },
         },
+        paperAnchorDockedLeft: {
+            background: '#060d1e',
+            border: 'none',
+        },
         appBar: {
             [theme.breakpoints.up('md')]: {
                 width: `calc(100% - ${drawerWidth}px)`,
                 marginLeft: drawerWidth,
+                background: '#060d1e',
+                borderBottomLeftRadius: 0,
+                borderBottomRightRadius: 0,
+                borderTopLeftRadius: 18,
+                borderTopRightRadius: 18,
+                boxShadow: 'none',
+                marginTop:10,
             },
             // color: theme.mixins.toolbar,
         },
@@ -60,7 +71,8 @@ const useStyles = makeStyles((theme: Theme) =>
         },
         content: {
             flexGrow: 1,
-            padding: theme.spacing(3),
+            background: '#182138',
+            //padding: theme.spacing(3),
         },
         sectionDesktop: {
             display: 'none',
@@ -203,7 +215,7 @@ const ResponsiveDrawer: React.FC<Props> = (props: Props) => {
                                     <MenuIcon />
                                 </IconButton>
                                 <Typography className={classes.title} variant="h6" noWrap>
-                                    Material-UI
+                                    DashBoard OverView
                                 </Typography>
                                 <div className={classes.grow} />
                                 <div className={classes.sectionDesktop}>
